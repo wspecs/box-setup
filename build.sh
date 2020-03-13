@@ -12,7 +12,7 @@ if [ ! -f "$WSPECS_CONFIG_FILE"  ] || [[ "$@" == *"--force"* ]]; then
 # This configuration file describes all the wspecs package to
 # add to the server. Each block is called in the specific order
 # They are given
-box-functions=v0.0.1
+box-functions=v0.0.2
 EOL
 fi
 
