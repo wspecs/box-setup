@@ -7,7 +7,7 @@ CURRENT_FOLDER=$(pwd)
 
 if [ ! -f "$WSPECS_CONFIG_FILE"  ] || [[ "$@" == *"--force"* ]]; then
   echo creating config file...
-  cat >$WSPECS_CONFIG_FILE<<EOL
+  cat > $WSPECS_CONFIG_FILE <<EOL
 # This configuration file describes all the wspecs package to
 # add to the server. Each block is called in the specific order
 # They are given
