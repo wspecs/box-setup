@@ -27,8 +27,12 @@ for module_info in $(cat $WSPECS_CONFIG_FILE | grep =)
 do
   module=$(echo $module_info | sed 's/=.*//')
   version=$(echo $module_info | sed 's/.*=//')
-
+  echo
+  echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
   echo checking out wspecs/$module @tag $version
+  echo "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
+  echo
+  
   build_folder_name=$HOME/$module
 	rm -rf $build_folder_name
 	git clone https://github.com/wspecs/$module.git $build_folder_name
