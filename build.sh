@@ -15,7 +15,7 @@ if [ ! -f "$WSPECS_CONFIG_FILE"  ] || [[ "$@" == *"--force"* ]]; then
 box-functions=v0.0.4
 box-essentials=v0.1.6
 box-dns=v0.0.1
-box-web=v0.0.4
+box-web=v0.0.5
 box-mail=v0.0.1
 box-management=v0.0.3
 box-up=v0.0.1
