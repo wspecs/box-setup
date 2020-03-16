@@ -17,6 +17,7 @@ box-essentials=v0.1.6
 box-dns=v0.0.1
 box-web=v0.0.3
 box-mail=v0.0.1
+box-management=v0.0.1
 EOL
 fi
 
