@@ -28,9 +28,9 @@ do
   module=$(echo $module_info | sed 's/=.*//')
   version=$(echo $module_info | sed 's/.*=//')
   echo
-  echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+  echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
   echo checking out wspecs/$module @tag $version
-  echo "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
+  echo "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
   echo
   
   build_folder_name=$HOME/$module
