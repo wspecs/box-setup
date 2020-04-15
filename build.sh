@@ -14,11 +14,11 @@ if [ ! -f "$WSPECS_CONFIG_FILE"  ] || [[ "$@" == *"--force"* ]]; then
 # They are given
 box-functions=v0.0.5
 box-essentials=v0.1.8
+box-do=v0.0.0
 box-dns=v0.0.1
 box-web=v0.0.7
 box-mail=v0.0.1
 box-management=v0.1.1
-box-do=v0.0.1
 box-text=v0.0.1
 box-up=v0.0.1
 EOL
