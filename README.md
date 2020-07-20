@@ -7,5 +7,5 @@ curl -s https://raw.githubusercontent.com/wspecs/box-setup/master/build.sh | sud
 # set up a database box
 
 ```bash
-curl -s https://raw.githubusercontent.com/wspecs/box-setup/master/build.sh | sudo -E bash
+curl -s https://raw.githubusercontent.com/wspecs/box-setup/master/database.sh | sudo -E bash
 ```
