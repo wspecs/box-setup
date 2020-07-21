@@ -34,6 +34,6 @@ do
 	git clone https://github.com/wspecs/$module.git $build_folder_name
 	cd $build_folder_name
 	git checkout tags/$version -b tmp
-	cat build.sh | sudo -E bash
+	./build.sh
 	cd $CURRENT_FOLDER
 done
