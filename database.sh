@@ -35,6 +35,5 @@ do
 	cd $build_folder_name
 	git checkout tags/$version -b tmp
 	cat build.sh | sudo -E bash
-	rm -rf $build_folder_name
 	cd $CURRENT_FOLDER
 done
