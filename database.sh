@@ -14,7 +14,7 @@ if [ ! -f "$WSPECS_CONFIG_FILE"  ] || [[ "$@" == *"--force"* ]]; then
 # They are given
 box-functions=v0.0.6
 box-essentials=v0.2.1
-box-database=v0.0.3
+box-database=v0.0.4
 EOL
 fi
 
