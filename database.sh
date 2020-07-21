@@ -13,7 +13,7 @@ if [ ! -f "$WSPECS_CONFIG_FILE"  ] || [[ "$@" == *"--force"* ]]; then
 # add to the server. Each block is called in the specific order
 # They are given
 box-functions=v0.0.5
-box-essentials=v0.1.8
+box-essentials=v0.2.0
 box-database=v0.0.2
 EOL
 fi
