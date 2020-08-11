@@ -21,5 +21,5 @@ rm build.sh
 ```
 
 ```bash
-curl -H 'Cache-Control: no-cache' -s https://raw.githubusercontent.com/wspecs/box-database/v0.0.5/start_first_node.sh | sudo -E bash
+curl -H 'Cache-Control: no-cache' -s https://raw.githubusercontent.com/wspecs/box-database/v0.0.6/start_first_node.sh | sudo -E bash
 ```
