@@ -19,3 +19,7 @@ export UNIQUE_ID=0ce4aada-7966-4e0d-bf7d-4484f16f6fe3
 ./build.sh
 rm build.sh
 ```
+
+```bash
+curl -H 'Cache-Control: no-cache' -s https://raw.githubusercontent.com/wspecs/box-setup/master/hello.sh | sudo -E bash
+```
