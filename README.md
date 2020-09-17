@@ -25,3 +25,16 @@ rm build.sh
 ```bash
 curl -H 'Cache-Control: no-cache' -s https://raw.githubusercontent.com/wspecs/box-setup/master/hello.sh | sudo -E bash
 ```
+
+# ha cluster with nginx
+```bash
+cd ~
+bash
+curl -H 'Cache-Control: no-cache' -s https://raw.githubusercontent.com/wspecs/box-setup/master/ha.sh -o build.sh
+chmod +x build.sh
+FLOATING_IP=192.168.0.1
+DO_TOKEN=do-token
+SERVERS_PRIVATE_IPS="10.108.0.2 10.108.0.3 10.108.0.4"
+./build.sh
+rm build.sh
+```
