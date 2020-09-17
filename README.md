@@ -16,8 +16,8 @@ chmod +x build.sh
 export DATABASE_SERVERS="10.108.0.2 10.108.0.3 10.108.0.4"
 export GROUP_PASSWORD="change-me"
 export UNIQUE_ID=0ce4aada-7966-4e0d-bf7d-4484f16f6fe3
-FLOATING_IP=192.168.0.1
-DO_TOKEN=do-token
+export FLOATING_IP=192.168.0.1
+export DO_TOKEN=do-token
 export SERVERS_PRIVATE_IPS=$DATABASE_SERVERS
 ./build.sh
 rm build.sh
@@ -35,9 +35,9 @@ cd ~
 bash
 curl -H 'Cache-Control: no-cache' -s https://raw.githubusercontent.com/wspecs/box-setup/master/ha.sh -o build.sh
 chmod +x build.sh
-FLOATING_IP=192.168.0.1
-DO_TOKEN=do-token
-SERVERS_PRIVATE_IPS="10.108.0.2 10.108.0.3 10.108.0.4"
+export FLOATING_IP=192.168.0.1
+export DO_TOKEN=do-token
+export SERVERS_PRIVATE_IPS="10.108.0.2 10.108.0.3 10.108.0.4"
 ./build.sh
 rm build.sh
 ```
