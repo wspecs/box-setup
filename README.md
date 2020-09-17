@@ -16,6 +16,9 @@ chmod +x build.sh
 export DATABASE_SERVERS="10.108.0.2 10.108.0.3 10.108.0.4"
 export GROUP_PASSWORD="change-me"
 export UNIQUE_ID=0ce4aada-7966-4e0d-bf7d-4484f16f6fe3
+FLOATING_IP=192.168.0.1
+DO_TOKEN=do-token
+export SERVERS_PRIVATE_IPS=$DATABASE_SERVER
 ./build.sh
 rm build.sh
 ```
