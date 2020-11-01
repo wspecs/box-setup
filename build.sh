@@ -18,7 +18,7 @@ box-do=v0.0.0
 box-dns=v0.0.2
 box-web=v0.0.8
 box-mail=v0.0.1
-box-management=v0.1.2
+box-management=v0.1.3
 box-text=v0.0.1
 box-up=v0.0.1
 EOL
